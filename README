@@ -1,0 +1,52 @@
+README
+------
+
+This package contains the CosmoSurvey cosmology survey modeler.
+
+See the file INSTALL for generic compilation and installation
+instructions.
+
+See the section FAQ in the documentation (doc/cosmosurvey.info) for
+frequently-asked questions.  The documentation is also available in
+PDF and HTML, provided you have a recent version of Texinfo installed:
+run "make pdf" or "make html"
+
+CosmoSurvey requires Cuba 1.5 or later.  See:
+
+http://www.feynarts.de/cuba/
+
+*NOTE:  The Cuba integration package provided by its author at the
+ above URL has build and install dependencies on Mathematica, which is
+ proprietary software.  However, these dependencies exist only for the
+ the tools and not for the core library.  Since CosmoSurvey only uses
+ the core integration library, a version of Cuba with a modified build
+ system is provided.  See:
+
+http://www.msu.edu/~ventimig
+
+Please send bug reports to <ventimig@msu.edu>.  Please include the
+version number from `cosmosurvey --version', and a complete,
+self-contained test case in each bug report.
+
+If you have questions about using CosmoSurvey and the documentation
+does not answer them, please send mail to <ventimig@msu.edu>.
+
+-----
+
+Copyright (C) 2009 David A. Ventimiglia
+
+This file is part of CosmoSurvey, the cosmology survey modeller.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+

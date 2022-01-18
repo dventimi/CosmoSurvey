@@ -1,0 +1,11 @@
+2009-11-16  David A. Ventimiglia  <ventimig@msu.edu>
+
+	* src/cosmotest.f90 (main): Using KRACKEN(3F) to parse
+	command-line options.
+
+	* src/cosmoplot.f90 (main): Using KRACKEN(3F) to parse
+	command-line options.
+
+	* src/cosmosurvey.f90 (main): Using KRACKEN(3F) to parse
+	command-line options.
+

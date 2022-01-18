@@ -1,0 +1,10 @@
+* Documentation
+** Need much more detailed description of the model
+** Need citations
+** Need to describe the other tools, cosmoplot and cosmotest
+* Long-term
+** Replace Cuba integrator with my own MCMC integrator
+
+Local Variables:
+mode: outline
+End:
