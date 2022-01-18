@@ -1,0 +1,71 @@
+\input texinfo
+@setfilename cosmosurvey.info
+@settitle CosmoSurvey Manual 1.0
+
+@copying
+This is the manual for CosmoSurvey.
+
+Copyright © 2009 David A. Ventimiglia
+@end copying
+
+@titlepage
+@title CosmoSurvey 1.0
+@page
+@vskip 0pt plus 1filll
+@insertcopying
+@end titlepage
+
+@contents
+
+@ifnottex
+@node Top
+@top CosmoSurvey
+
+@insertcopying
+@end ifnottex
+
+@menu
+* Description::    What CosmoSurvey Does
+* Usage::          How to use CosmoSurvey
+@end menu
+
+@node Description
+@chapter Description
+
+Code to model upcoming large-area surveys for galaxy clusters. These are
+semi-analytic models, rooted in the Press-Shechter formalism, though
+augmented with more modern halo mass functions that are derived from
+numerical simulations. The goal is to have a fast engine for mapping a
+set of input parameters—describing a particular cosmology and a
+particular survey strategy—to a set of observables. This provides an
+opportunity to explore the model’s parameter-space using Fisher Matrix
+and/or MCMC engines.
+
+@node Usage
+@chapter Usage
+
+@example
+@group
+Usage:
+
+  cosmosurvey [[OPTION]]
+
+Options (Default):
+  -h                Print help information
+  -z1  (0.01)       Redshift start
+  -z2  (2.50)       Redshift end
+  -nz  (10)         Number of redshift bins
+  -l1  (44.0)       log10(L1) luminosity start, [L1] = ergs/s
+  -l2  (46.0)       log10(L2) luminosity end, [L2] = ergs/s
+  -nl  (10)         Number of luminosity bins
+  -do  (12.0)       Survey solid angle dOmega, [dOmega] = steradians
+  -fl  (1.25e-13)   Survey flux limit, [fl] = ergs/s/cm^2
+  -w   (-1.0)       Dark Energy equation of state parameter w
+  -om  (0.30)       Matter density parameter Omega_M
+  -ol  (0.70)       Dark Energy density parameter Omega_Lambda
+  -s8  (0.80)       Power spectrum normalization sigma_8
+  -g   (0.55)       Linder growth index gamma
+@end group
+@end example
+
+@bye
