@@ -16,7 +16,7 @@ PKG_PROG_PKG_CONFIG		dnl pkg-config script
 
 # Checks for libraries
 AC_SEARCH_LIBS([Vegas], [cuba])
-PKG_CHECK_MODULES([PLPLOT], [plplotd-f95])
+PKG_CHECK_MODULES([PLPLOT], [plplotfortran0])
 
 AC_CONFIG_FILES([
 	Makefile

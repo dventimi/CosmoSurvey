@@ -1,4 +1,4 @@
 SUBDIRS = examples
 
-info_TEXINFOS = cosmosurvey.texinfo
+info_TEXINFOS = cosmosurvey.texi
 

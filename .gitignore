@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+/aclocal.m4
+*.in
+/autom4te.cache/
+*.log
+*.info
+/compile
+/configure
+/depcomp
+/install-sh
+/missing
